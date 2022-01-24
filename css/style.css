@@ -32,6 +32,7 @@ header {
     height: 80px;
     line-height: 80px;
     background-color: rgb(49, 97, 224);
+    text-align: center;
 }
 
 .container {
@@ -39,10 +40,6 @@ header {
     height: 100%;
     max-width: 1180px;
     margin: 0 auto;
-}
-
-.float-left {
-    float: left;
 }
 
 img {
@@ -54,24 +51,19 @@ header .main-nav li {
     display: inline-block;
 }
 
-.access {
-    padding: 10px;
-    border-radius: 20px;
-    border: transparent;
-}
-
 .logo,
 .login {
     width: calc(30% / 2);
 }
 
-.login {
-    text-align: end;
-}
-
 .main-nav {
     width: 70%;
-    text-align: center;
+}
+
+.access {
+    padding: 10px;
+    border-radius: 20px;
+    border: transparent;
 }
 
 /* lista di navigazione senza text-decoration-underline e poi hover con underline*/
